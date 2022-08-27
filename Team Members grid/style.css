@@ -8,13 +8,14 @@ body {
   width: 100vw;
 }
 .container {
+  gap: 20px;
   width: 80%;
   margin: 0 auto;
   background-color: brown;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  height: 80vh;
+  /* height: 80vh; */
 }
 .container > div {
   border: solid green 2px;
@@ -22,6 +23,9 @@ body {
 .divtop {
   background-color: aquamarine;
 }
+
+/* 1. div başlangıç */
+
 .div1 {
   display: grid;
   grid-template-rows: 0fr 6fr 1fr 1fr;
@@ -38,7 +42,200 @@ body {
 }
 .div1_1_1 {
   background-color: antiquewhite;
+  height: max-content;
+}
+.div1_1_1 img {
+  width: 100%;
 }
 .div1_1_2 {
+  display: flex;
+  justify-content: center;
   background-color: rgb(179, 125, 54);
+}
+.div1_1_2 p {
+  background-color: rgb(179, 125, 54);
+  transform: rotate(90deg);
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/* 2. div başlangıç */
+
+.div1 {
+  display: grid;
+  grid-template-rows: 0fr 6fr 1fr 1fr;
+}
+.div1_1 {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+}
+.div1_2 {
+  background-color: brown;
+  display: flex;
+  align-items: center;
+}
+.div1_1_1 {
+  background-color: antiquewhite;
+  height: max-content;
+}
+.div1_1_1 img {
+  width: 100%;
+}
+.div1_1_2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(179, 125, 54);
+}
+.div1_1_2 p {
+  background-color: rgb(179, 125, 54);
+  transform: rotate(90deg);
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/* 3.div başlangıç */
+
+.div1 {
+  display: grid;
+  grid-template-rows: 0fr 6fr 1fr 1fr;
+}
+.div1_1 {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+}
+.div1_2 {
+  background-color: brown;
+  display: flex;
+  align-items: center;
+}
+.div1_1_1 {
+  background-color: antiquewhite;
+  height: max-content;
+}
+.div1_1_1 img {
+  width: 100%;
+}
+.div1_1_2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(179, 125, 54);
+}
+.div1_1_2 p {
+  background-color: rgb(179, 125, 54);
+  transform: rotate(90deg);
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/* 4.div başlangıç */
+
+.div1 {
+  display: grid;
+  grid-template-rows: 0fr 6fr 1fr 1fr;
+}
+.div1_1 {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+}
+.div1_2 {
+  background-color: brown;
+  display: flex;
+  align-items: center;
+}
+.div1_1_1 {
+  background-color: antiquewhite;
+  height: max-content;
+}
+.div1_1_1 img {
+  width: 100%;
+}
+.div1_1_2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(179, 125, 54);
+}
+.div1_1_2 p {
+  background-color: rgb(179, 125, 54);
+  transform: rotate(90deg);
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/* 5.div başlangıç  */
+
+.div1 {
+  display: grid;
+  grid-template-rows: 0fr 6fr 1fr 1fr;
+}
+.div1_1 {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+}
+.div1_2 {
+  background-color: brown;
+  display: flex;
+  align-items: center;
+}
+.div1_1_1 {
+  background-color: antiquewhite;
+  height: max-content;
+}
+.div1_1_1 img {
+  width: 100%;
+}
+.div1_1_2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(179, 125, 54);
+}
+.div1_1_2 p {
+  background-color: rgb(179, 125, 54);
+  transform: rotate(90deg);
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/* 6.div başlangıç */
+
+.div1 {
+  display: grid;
+  grid-template-rows: 0fr 6fr 1fr 1fr;
+}
+.div1_1 {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+}
+.div1_2 {
+  background-color: brown;
+  display: flex;
+  align-items: center;
+}
+.div1_1_1 {
+  background-color: antiquewhite;
+  height: max-content;
+}
+.div1_1_1 img {
+  width: 100%;
+}
+.div1_1_2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(179, 125, 54);
+}
+.div1_1_2 p {
+  background-color: rgb(179, 125, 54);
+  transform: rotate(90deg);
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
 }
