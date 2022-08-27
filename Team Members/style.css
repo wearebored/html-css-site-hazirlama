@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: rgba(175, 175, 175, 0.26);
+
+  /* height: 200vh; */
+}
+header {
+  width: 80vw;
+  height: 10vh;
+  margin-bottom: 20px;
+  display: flex;
+}
+main {
+  width: 80vw;
+  height: 90%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+img {
+  border-radius: 5px;
+  box-shadow: 0 0 6px;
+}
+.header1 {
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header2 {
+  width: 60%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+}
+p {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 25px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+/* 1.main başlangıç */
+.main1 {
+  width: 30%;
+  height: max-content;
+}
+.main1_1 {
+  height: 90%;
+}
+.main1_2 {
+  height: 5vh;
+}
+.main1_1_1 {
+  height: 85%;
+
+  display: flex;
+}
+.main1_1_2 p {
+  margin: 10px 0;
+}
+.main1_1_1_1 {
+  width: 90%;
+}
+.main1_1_1_1 img {
+  width: 100%;
+  max-height: 100%;
+}
+.main1_1_1_2 {
+  width: 10%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+.main1_1_1_2 p {
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  transform: rotate(90deg);
+}
+/* 2.main başlangıç */
+.main2 {
+  width: 30%;
+  height: max-content;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.main2_1 {
+  height: 90%;
+}
+.main2_2 {
+  height: 5vh;
+}
+.main2_1_1 {
+  height: 85%;
+
+  display: flex;
+}
+.main2_1_2 p {
+  margin: 10px 0;
+}
+.main2_1_1_1 {
+  width: 90%;
+}
+.main2_1_1_1 img {
+  width: 100%;
+  max-height: 100%;
+}
+.main2_1_1_2 {
+  width: 10%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+.main2_1_1_2 p {
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  transform: rotate(90deg);
+}
+/* 3.main başlangıç */
+.main3 {
+  width: 30%;
+  height: max-content;
+}
+.main3_1 {
+  height: 90%;
+}
+.main3_2 {
+  height: 5vh;
+}
+.main3_1_1 {
+  height: 85%;
+
+  display: flex;
+}
+.main3_1_2 p {
+  margin: 10px 0;
+}
+.main3_1_1_1 {
+  width: 90%;
+}
+.main3_1_1_1 img {
+  width: 100%;
+  max-height: 100%;
+}
+.main3_1_1_2 {
+  width: 10%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+.main3_1_1_2 p {
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  transform: rotate(90deg);
+}
+/* 4.main başlangıç */
+.main4 {
+  width: 30%;
+  height: max-content;
+}
+.main4_1 {
+  height: 90%;
+}
+.main4_2 {
+  height: 5vh;
+}
+.main4_1_1 {
+  height: 85%;
+
+  display: flex;
+}
+.main4_1_2 p {
+  margin: 10px 0;
+}
+.main4_1_1_1 {
+  width: 90%;
+}
+.main4_1_1_1 img {
+  width: 100%;
+  max-height: 100%;
+}
+.main4_1_1_2 {
+  width: 10%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+.main4_1_1_2 p {
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  transform: rotate(90deg);
+}
+
+/* main 5 başlangıç */
+
+.main5 {
+  width: 30%;
+  height: max-content;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.main5_1 {
+  height: 90%;
+}
+.main5_2 {
+  height: 5vh;
+}
+.main5_1_1 {
+  height: 85%;
+
+  display: flex;
+}
+.main5_1_2 p {
+  margin: 10px 0;
+}
+.main5_1_1_1 {
+  width: 90%;
+}
+.main5_1_1_1 img {
+  width: 100%;
+  max-height: 100%;
+}
+.main5_1_1_2 {
+  width: 10%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+.main5_1_1_2 p {
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  transform: rotate(90deg);
+}
+
+/* main6 başlangıç */
+
+.main6 {
+  width: 30%;
+  height: max-content;
+}
+.main6_1 {
+  height: 90%;
+}
+.main6_2 {
+  height: 5vh;
+}
+.main6_1_1 {
+  height: 85%;
+
+  display: flex;
+}
+.main6_1_2 p {
+  margin: 10px 0;
+}
+.main6_1_1_1 {
+  width: 90%;
+}
+.main6_1_1_1 img {
+  width: 100%;
+  max-height: 100%;
+}
+.main6_1_1_2 {
+  width: 10%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+.main6_1_1_2 p {
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  transform: rotate(90deg);
+}
+
+/* mobil versiyon */
+
+@media (max-width: 576px) {
+  .header1 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .header2 {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0;
+  }
+  header {
+    height: auto;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .main1,
+  .main2,
+  .main3,
+  .main4,
+  .main5,
+  .main6 {
+    width: 37vw;
+  }
+  .main4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main5 {
+    flex-direction: row;
+  }
+  .main6 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
