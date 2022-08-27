@@ -23,6 +23,16 @@ body {
 .divtop {
   background-color: aquamarine;
 }
+img {
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
+}
+
+/* header bölümü */
+
+
+
+
 
 /* 1. div başlangıç */
 
@@ -62,33 +72,33 @@ body {
 
 /* 2. div başlangıç */
 
-.div1 {
+.div2 {
   display: grid;
-  grid-template-rows: 0fr 6fr 1fr 1fr;
+  grid-template-rows: 1fr 6fr 1fr 0fr;
 }
-.div1_1 {
+.div2_1 {
   background-color: blue;
   display: grid;
   grid-template-columns: 10fr 1fr;
 }
-.div1_2 {
+.div2_2 {
   background-color: brown;
   display: flex;
   align-items: center;
 }
-.div1_1_1 {
+.div2_1_1 {
   background-color: antiquewhite;
   height: max-content;
 }
-.div1_1_1 img {
+.div2_1_1 img {
   width: 100%;
 }
-.div1_1_2 {
+.div2_1_2 {
   display: flex;
   justify-content: center;
   background-color: rgb(179, 125, 54);
 }
-.div1_1_2 p {
+.div2_1_2 p {
   background-color: rgb(179, 125, 54);
   transform: rotate(90deg);
   font-size: 10px;
@@ -98,33 +108,33 @@ body {
 
 /* 3.div başlangıç */
 
-.div1 {
+.div3 {
   display: grid;
   grid-template-rows: 0fr 6fr 1fr 1fr;
 }
-.div1_1 {
+.div3_1 {
   background-color: blue;
   display: grid;
   grid-template-columns: 10fr 1fr;
 }
-.div1_2 {
+.div3_2 {
   background-color: brown;
   display: flex;
   align-items: center;
 }
-.div1_1_1 {
+.div3_1_1 {
   background-color: antiquewhite;
   height: max-content;
 }
-.div1_1_1 img {
+.div3_1_1 img {
   width: 100%;
 }
-.div1_1_2 {
+.div3_1_2 {
   display: flex;
   justify-content: center;
   background-color: rgb(179, 125, 54);
 }
-.div1_1_2 p {
+.div3_1_2 p {
   background-color: rgb(179, 125, 54);
   transform: rotate(90deg);
   font-size: 10px;
@@ -134,33 +144,33 @@ body {
 
 /* 4.div başlangıç */
 
-.div1 {
+.div4 {
   display: grid;
   grid-template-rows: 0fr 6fr 1fr 1fr;
 }
-.div1_1 {
+.div4_1 {
   background-color: blue;
   display: grid;
   grid-template-columns: 10fr 1fr;
 }
-.div1_2 {
+.div4_2 {
   background-color: brown;
   display: flex;
   align-items: center;
 }
-.div1_1_1 {
+.div4_1_1 {
   background-color: antiquewhite;
   height: max-content;
 }
-.div1_1_1 img {
+.div4_1_1 img {
   width: 100%;
 }
-.div1_1_2 {
+.div4_1_2 {
   display: flex;
   justify-content: center;
   background-color: rgb(179, 125, 54);
 }
-.div1_1_2 p {
+.div4_1_2 p {
   background-color: rgb(179, 125, 54);
   transform: rotate(90deg);
   font-size: 10px;
@@ -170,33 +180,33 @@ body {
 
 /* 5.div başlangıç  */
 
-.div1 {
+.div5 {
   display: grid;
-  grid-template-rows: 0fr 6fr 1fr 1fr;
+  grid-template-rows: 1fr 6fr 1fr 0fr;
 }
-.div1_1 {
+.div5_1 {
   background-color: blue;
   display: grid;
   grid-template-columns: 10fr 1fr;
 }
-.div1_2 {
+.div5_2 {
   background-color: brown;
   display: flex;
   align-items: center;
 }
-.div1_1_1 {
+.div5_1_1 {
   background-color: antiquewhite;
   height: max-content;
 }
-.div1_1_1 img {
+.div5_1_1 img {
   width: 100%;
 }
-.div1_1_2 {
+.div5_1_2 {
   display: flex;
   justify-content: center;
   background-color: rgb(179, 125, 54);
 }
-.div1_1_2 p {
+.div5_1_2 p {
   background-color: rgb(179, 125, 54);
   transform: rotate(90deg);
   font-size: 10px;
@@ -206,33 +216,33 @@ body {
 
 /* 6.div başlangıç */
 
-.div1 {
+.div6 {
   display: grid;
   grid-template-rows: 0fr 6fr 1fr 1fr;
 }
-.div1_1 {
+.div6_1 {
   background-color: blue;
   display: grid;
   grid-template-columns: 10fr 1fr;
 }
-.div1_2 {
+.div6_2 {
   background-color: brown;
   display: flex;
   align-items: center;
 }
-.div1_1_1 {
+.div6_1_1 {
   background-color: antiquewhite;
   height: max-content;
 }
-.div1_1_1 img {
+.div6_1_1 img {
   width: 100%;
 }
-.div1_1_2 {
+.div6_1_2 {
   display: flex;
   justify-content: center;
   background-color: rgb(179, 125, 54);
 }
-.div1_1_2 p {
+.div6_1_2 p {
   background-color: rgb(179, 125, 54);
   transform: rotate(90deg);
   font-size: 10px;
