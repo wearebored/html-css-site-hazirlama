@@ -4,25 +4,19 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(27, 197, 209);
+  background-color: rgba(163, 163, 163, 0.205);
   width: 100vw;
 }
 .container {
-  gap: 20px;
+  gap: 0 20px;
   width: 80%;
   margin: 0 auto;
-  background-color: brown;
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  /* height: 80vh; */
 }
-.container > div {
-  border: solid green 2px;
-}
-.divtop {
-  background-color: aquamarine;
-}
+
 img {
   border-radius: 5px;
   box-shadow: 0 0 5px;
@@ -30,9 +24,34 @@ img {
 
 /* header bölümü */
 
+header {
+  width: 80vw;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+}
 
-
-
+.hed1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hed2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 20px;
+}
+.hed2 h2 {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.hed2 p {
+  font-size: 12px;
+  font-family: sans-serif;
+}
 
 /* 1. div başlangıç */
 
@@ -41,17 +60,14 @@ img {
   grid-template-rows: 0fr 6fr 1fr 1fr;
 }
 .div1_1 {
-  background-color: blue;
   display: grid;
   grid-template-columns: 10fr 1fr;
 }
 .div1_2 {
-  background-color: brown;
   display: flex;
   align-items: center;
 }
 .div1_1_1 {
-  background-color: antiquewhite;
   height: max-content;
 }
 .div1_1_1 img {
@@ -60,10 +76,8 @@ img {
 .div1_1_2 {
   display: flex;
   justify-content: center;
-  background-color: rgb(179, 125, 54);
 }
 .div1_1_2 p {
-  background-color: rgb(179, 125, 54);
   transform: rotate(90deg);
   font-size: 10px;
   width: 20px;
@@ -77,17 +91,14 @@ img {
   grid-template-rows: 1fr 6fr 1fr 0fr;
 }
 .div2_1 {
-  background-color: blue;
   display: grid;
   grid-template-columns: 10fr 1fr;
 }
 .div2_2 {
-  background-color: brown;
   display: flex;
   align-items: center;
 }
 .div2_1_1 {
-  background-color: antiquewhite;
   height: max-content;
 }
 .div2_1_1 img {
@@ -96,10 +107,8 @@ img {
 .div2_1_2 {
   display: flex;
   justify-content: center;
-  background-color: rgb(179, 125, 54);
 }
 .div2_1_2 p {
-  background-color: rgb(179, 125, 54);
   transform: rotate(90deg);
   font-size: 10px;
   width: 20px;
@@ -113,17 +122,14 @@ img {
   grid-template-rows: 0fr 6fr 1fr 1fr;
 }
 .div3_1 {
-  background-color: blue;
   display: grid;
   grid-template-columns: 10fr 1fr;
 }
 .div3_2 {
-  background-color: brown;
   display: flex;
   align-items: center;
 }
 .div3_1_1 {
-  background-color: antiquewhite;
   height: max-content;
 }
 .div3_1_1 img {
@@ -132,10 +138,8 @@ img {
 .div3_1_2 {
   display: flex;
   justify-content: center;
-  background-color: rgb(179, 125, 54);
 }
 .div3_1_2 p {
-  background-color: rgb(179, 125, 54);
   transform: rotate(90deg);
   font-size: 10px;
   width: 20px;
@@ -149,17 +153,14 @@ img {
   grid-template-rows: 0fr 6fr 1fr 1fr;
 }
 .div4_1 {
-  background-color: blue;
   display: grid;
   grid-template-columns: 10fr 1fr;
 }
 .div4_2 {
-  background-color: brown;
   display: flex;
   align-items: center;
 }
 .div4_1_1 {
-  background-color: antiquewhite;
   height: max-content;
 }
 .div4_1_1 img {
@@ -168,10 +169,8 @@ img {
 .div4_1_2 {
   display: flex;
   justify-content: center;
-  background-color: rgb(179, 125, 54);
 }
 .div4_1_2 p {
-  background-color: rgb(179, 125, 54);
   transform: rotate(90deg);
   font-size: 10px;
   width: 20px;
@@ -185,17 +184,14 @@ img {
   grid-template-rows: 1fr 6fr 1fr 0fr;
 }
 .div5_1 {
-  background-color: blue;
   display: grid;
   grid-template-columns: 10fr 1fr;
 }
 .div5_2 {
-  background-color: brown;
   display: flex;
   align-items: center;
 }
 .div5_1_1 {
-  background-color: antiquewhite;
   height: max-content;
 }
 .div5_1_1 img {
@@ -204,10 +200,8 @@ img {
 .div5_1_2 {
   display: flex;
   justify-content: center;
-  background-color: rgb(179, 125, 54);
 }
 .div5_1_2 p {
-  background-color: rgb(179, 125, 54);
   transform: rotate(90deg);
   font-size: 10px;
   width: 20px;
@@ -221,17 +215,14 @@ img {
   grid-template-rows: 0fr 6fr 1fr 1fr;
 }
 .div6_1 {
-  background-color: blue;
   display: grid;
   grid-template-columns: 10fr 1fr;
 }
 .div6_2 {
-  background-color: brown;
   display: flex;
   align-items: center;
 }
 .div6_1_1 {
-  background-color: antiquewhite;
   height: max-content;
 }
 .div6_1_1 img {
@@ -240,12 +231,48 @@ img {
 .div6_1_2 {
   display: flex;
   justify-content: center;
-  background-color: rgb(179, 125, 54);
 }
 .div6_1_2 p {
-  background-color: rgb(179, 125, 54);
   transform: rotate(90deg);
   font-size: 10px;
   width: 20px;
   height: 20px;
+}
+
+/* MOBİL VERSİYON */
+@media (max-width: 576px) {
+  .header1 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .header2 {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0;
+  }
+  header {
+    height: auto;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .main1,
+  .main2,
+  .main3,
+  .main4,
+  .main5,
+  .main6 {
+    width: 37vw;
+  }
+  .main4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main5 {
+    flex-direction: row;
+  }
+  .main6 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
