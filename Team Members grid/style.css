@@ -241,38 +241,35 @@ header {
 
 /* MOBİL VERSİYON */
 @media (max-width: 576px) {
-  .header1 {
-    width: 100%;
-    margin-top: 20px;
+  .container {
+    gap: 0 50px;
+    width: 80%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
-  .header2 {
-    width: 100%;
-    padding: 0;
-    margin: 20px 0;
+  .div4 {
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr 0fr;
+  }
+  .div5 {
+    display: grid;
+    grid-template-rows: 0fr 6fr 1fr 1fr;
+  }
+  .div6 {
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr 0fr;
   }
   header {
-    height: auto;
-    flex-direction: column;
-    align-content: center;
+    width: 80vw;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
-
-  .main1,
-  .main2,
-  .main3,
-  .main4,
-  .main5,
-  .main6 {
-    width: 37vw;
-  }
-  .main4 {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .main5 {
-    flex-direction: row;
-  }
-  .main6 {
-    display: flex;
-    flex-direction: column-reverse;
+  .hed2 {
+    margin-left: 0px;
   }
 }
